@@ -172,3 +172,16 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# C/C++ ignores
+*.o
+*.out
+*.exe
+!solution.exe  # Keep reference solution
+
+# System ignores
+.DS_Store
+Thumbs.db
+
+# Submission temp files
+submissions/*.exe
